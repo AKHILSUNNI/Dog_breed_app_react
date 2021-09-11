@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        90deg,
+        rgb(16, 167, 255) 0%,
+        rgb(208, 255, 100) 100%
+      );
+}
+.app {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.apps {
+    margin: 25px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+.app:focus {
+    background-color: rgb(255, 239, 8);
+}
+
+.apps:focus {
+    background-color: rgb(255, 239, 8);
+}
+
+.image {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    background: red;
+}
