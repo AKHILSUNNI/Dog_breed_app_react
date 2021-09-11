@@ -93,7 +93,7 @@ return (
       {
         images.map((item) =>{
           console.log((item))
-          return <img src = {item} />
+          return <img src = {item} alt=""/>
         })
       }
     </div>
