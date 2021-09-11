@@ -15,4 +15,4 @@ This code mainly contians of react.js , javascript , css and html5.
 - large amount of image can be viewed at a time
 
 ## Screen Shot
-![App_ScreenShot]()
+![App_ScreenShot](https://github.com/AKHILSUNNI/Dog_breed_app_react/blob/main/image_APP.jpeg)
